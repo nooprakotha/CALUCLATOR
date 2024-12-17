@@ -11,5 +11,4 @@ def bfs(visited, graph, node):
            if neighbour not in visited:
                  visited.append(neighbour)
                  queue.append(neighbour)
-print ("Following is the Breadth-First Search")
 bfs(visited, graph, 'A')    
